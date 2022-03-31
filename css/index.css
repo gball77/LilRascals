@@ -1,0 +1,18 @@
+body{
+	min-width: 100%;
+	min-height: 100%;
+ 	background: linear-gradient(0deg, rgba(255, 255, 255, .75), rgba(255, 255, 180, 0.75)), url('../img/wp8376834-daycare-wallpapers.jpg'); 
+ 	background-size: cover;
+
+}
+
+ul, p, h1,h2{
+	font-size: 24px;
+	font-family: ;
+  	margin-right: 150px;
+ 	margin-left: 80px;
+} 
+
+#homeimg{
+	width: 100%;
+}
