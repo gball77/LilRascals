@@ -1,18 +1,73 @@
 body{
-	min-width: 100%;
+	/*min-width: 100%;
 	min-height: 100%;
  	background: linear-gradient(0deg, rgba(255, 255, 255, .75), rgba(255, 255, 180, 0.75)), url('../img/wp8376834-daycare-wallpapers.jpg'); 
  	background-size: cover;
+ 	background-attachment: fixed;*/
 
 }
 
 ul, p, h1,h2{
-	font-size: 24px;
+	font-size: 20px;
 	font-family: ;
   	margin-right: 150px;
  	margin-left: 80px;
+ 	padding: 0;
 } 
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+}
 
 #homeimg{
 	width: 100%;
+}
+
+#email-icon{
+	height: 50px;
+	width: 50px;
+}
+
+#phone-icon{
+	height: 50px;
+	width: 50px;
+}
+
+#loc-icon{
+	height: 50px;
+	width: 50px;
+}
+
+#aboutusheader{
+	color: #f99154;
+	font-weight: 900;
+	text-decoration: underline;
+
+}
+
+#offerings{
+	color: #f94ba3;
+	font-weight: 900;
+	text-decoration: underline;
+
+}
+
+#contact-us{
+	color: #17c6d9;
+	font-weight: 900;
+	text-decoration: underline;
+}
+@media (max-width: 480px) {
+    .no-margin-mobile {
+        margin-left: 0 !important;
+        margin-right: 0 !important; 
+        width: 100%;
+        font-size: 16px;       
+    }
+
+    .photos{
+    	width: 360px;
+
+    }
 }
