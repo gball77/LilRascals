@@ -4,16 +4,31 @@ body{
  	background: linear-gradient(0deg, rgba(255, 255, 255, .75), rgba(255, 255, 180, 0.75)), url('../img/wp8376834-daycare-wallpapers.jpg'); 
  	background-size: cover;
  	background-attachment: fixed;*/
+ 	border-color:  #920f7b;
+ 	border-style: solid;
+ 	border-width: 25px;
 
 }
+/*section{
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	;
+}*/
 
-ul, p, h1,h2{
+ul, p, h1,h2, input, label, button{
 	font-size: 20px;
 	font-family: ;
-  	margin-right: 150px;
- 	margin-left: 80px;
+  	/*margin-right: 150px;*/
+ 	margin-left: 40px;
  	padding: 0;
 } 
+button{
+	padding-top: 10px;
+	padding: 5px;
+}
 
 ul {
   list-style-type: none;
@@ -46,6 +61,11 @@ ul {
 
 }
 
+#get-started{
+	/*margin-right: 150px;*/
+ 	margin-left: 40px;
+}
+
 #offerings{
 	color: #f94ba3;
 	font-weight: 900;
@@ -69,5 +89,10 @@ ul {
     .photos{
     	width: 360px;
 
+    }
+    body{
+    	border-color: blueviolet;
+ 		border-style: ;
+ 		border-width: 0px;
     }
 }
