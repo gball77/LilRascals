@@ -4,27 +4,36 @@ body{
  	background: linear-gradient(0deg, rgba(255, 255, 255, .75), rgba(255, 255, 180, 0.75)), url('../img/wp8376834-daycare-wallpapers.jpg'); 
  	background-size: cover;
  	background-attachment: fixed;*/
- 	border-color: rgb(146, 15, 123);
- 	border-style: solid;
- 	border-width: 25px;
+ 	background: -moz-linear-gradient(left,#f99154 ,#f94ba3 ) !important;
+    background: -webkit-linear-gradient(left,#f99154  ,#f94ba3 ) !important;
+    background: linear-gradient(to right,#f99154  ,#f94ba3  ) !important;
+ 	
 
 }
-/*section{
+section{
+	display: block;	
 	background-color: white;
-	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
 	padding-bottom: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
+	width: 90%;
 	;
-}*/
+}
 
 ul, p, h1,h2, input, label, button{
 	font-size: 20px;
 	font-family: ;
   	/*margin-right: 150px;*/
- 	margin-left: 40px;
+ 	/*margin-left: 40px;*/
  	padding: 0;
 } 
+
+h1{
+	font-size: 32px;
+}
 button{
 	padding-top: 10px;
 	padding: 5px;
@@ -33,10 +42,15 @@ button{
 ul {
   list-style-type: none;
   padding: 0;
+  height: ;
 }
 
+#home{
+	top: -20px;
+}
 #homeimg{
-	width: 100%;
+	width:964px;
+	height:702px;
 }
 
 #email-icon{
@@ -58,19 +72,26 @@ ul {
 	color: #f99154;
 	font-weight: 900;
 	text-decoration: underline;
+	padding-bottom: 75px;
 
 }
 
 #get-started{
 	/*margin-right: 150px;*/
  	margin-left: 40px;
+ 	background-color: #f99154;
 }
 
 #offerings{
 	color: #f94ba3;
 	font-weight: 900;
 	text-decoration: underline;
+	padding-bottom: 50px;
 
+}
+
+.btn{
+	background-color: #17c6d9 ;
 }
 
 #contact-us{
@@ -78,6 +99,81 @@ ul {
 	font-weight: 900;
 	text-decoration: underline;
 }
+
+.get-in-touch {
+  max-width: 600px;
+  margin: 10px auto;
+  position: relative;
+
+}
+.get-in-touch .title {
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-bottom: 48px;
+     color: #5543ca;
+    background: #5543ca;
+    background: -moz-linear-gradient(left,#f99154  0%,#f94ba3 100%) !important;
+    background: -webkit-linear-gradient(left,#f99154  0%,#f94ba3 100%) !important;
+    background: linear-gradient(to right,#f99154  0%,#f94ba3  100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+
+.contact-form{max-width: 600px;}
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #f94ba3;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #5543ca;
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  -webkit-transform .2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+   background-image: linear-gradient(125deg,#f99154 ,#f94ba3);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width:200px;
+  cursor: pointer;
+}
+
 @media (max-width: 480px) {
     .no-margin-mobile {
         margin-left: 0 !important;
@@ -91,8 +187,12 @@ ul {
 
     }
     body{
-    	border-color: blueviolet;
+    	/*border-color: blueviolet;*/
  		border-style: ;
  		border-width: 0px;
+ 		background: none;
+    }
+    #homeimg{
+    	
     }
 }
