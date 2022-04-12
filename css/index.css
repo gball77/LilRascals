@@ -4,10 +4,11 @@ body{
  	background: linear-gradient(0deg, rgba(255, 255, 255, .75), rgba(255, 255, 180, 0.75)), url('../img/wp8376834-daycare-wallpapers.jpg'); 
  	background-size: cover;
  	background-attachment: fixed;*/
+ 	padding: 40px;
  	background: -moz-linear-gradient(left,#f99154 ,#f94ba3 ) !important;
     background: -webkit-linear-gradient(left,#f99154  ,#f94ba3 ) !important;
     background: linear-gradient(to right,#f99154  ,#f94ba3  ) !important;
- 	
+ 	background-repeat: no-repeat;
 
 }
 section{
@@ -15,8 +16,8 @@ section{
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 50px;
-	padding-bottom: 20px;
+	/*padding-top: 50px;
+	padding-bottom: 20px;*/
 	padding-left: 20px;
 	padding-right: 20px;
 	width: 90%;
@@ -45,9 +46,6 @@ ul {
   height: ;
 }
 
-#home{
-	top: -20px;
-}
 #homeimg{
 	width:964px;
 	height:702px;
@@ -100,6 +98,7 @@ ul {
 	text-decoration: underline;
 }
 
+
 .get-in-touch {
   max-width: 600px;
   margin: 10px auto;
@@ -115,9 +114,9 @@ ul {
   padding-bottom: 48px;
      color: #5543ca;
     background: #5543ca;
-    background: -moz-linear-gradient(left,#f99154  0%,#f94ba3 100%) !important;
-    background: -webkit-linear-gradient(left,#f99154  0%,#f94ba3 100%) !important;
-    background: linear-gradient(to right,#f99154  0%,#f94ba3  100%) !important;
+    background: -moz-linear-gradient(left,#f99154  0%,#f94ba3 100%);
+    background: -webkit-linear-gradient(left,#f99154  0%,#f94ba3 100%) ;
+    background: linear-gradient(to right,#f99154  0%,#f94ba3  100%) ;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
 }
@@ -190,7 +189,11 @@ ul {
     	/*border-color: blueviolet;*/
  		border-style: ;
  		border-width: 0px;
- 		background: none;
+ 		background-color: transparent;
+ 		padding: 0px;
+    }
+    section{
+    	width: 100%;
     }
     #homeimg{
     	
