@@ -16,15 +16,14 @@ section{
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
-	/*padding-top: 50px;
-	padding-bottom: 20px;*/
+	padding-bottom: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 	width: 90%;
 	;
 }
 
-ul, p, h1,h2, input, label, button{
+ul, p,h2, input, label, button{
 	font-size: 20px;
 	font-family: ;
   	/*margin-right: 150px;*/
@@ -33,7 +32,7 @@ ul, p, h1,h2, input, label, button{
 } 
 
 h1{
-	font-size: 32px;
+	font-size: 52px;
 }
 button{
 	padding-top: 10px;
@@ -69,7 +68,6 @@ ul {
 #aboutusheader{
 	color: #f99154;
 	font-weight: 900;
-	text-decoration: underline;
 	padding-bottom: 75px;
 
 }
@@ -83,8 +81,7 @@ ul {
 #offerings{
 	color: #f94ba3;
 	font-weight: 900;
-	text-decoration: underline;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 
 }
 
@@ -95,7 +92,6 @@ ul {
 #contact-us{
 	color: #17c6d9;
 	font-weight: 900;
-	text-decoration: underline;
 }
 
 
@@ -182,7 +178,7 @@ ul {
     }
 
     .photos{
-    	width: 360px;
+    	width: 321px;
 
     }
     body{
@@ -196,6 +192,10 @@ ul {
     	width: 100%;
     }
     #homeimg{
-    	
+    	width: 321px;
+    	height: 234px;
+    }
+    #offerings, #aboutusheader, #contact-us{
+
     }
 }
