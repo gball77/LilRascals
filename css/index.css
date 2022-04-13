@@ -196,6 +196,7 @@ ul {
     	height: 234px;
     }
     #offerings, #aboutusheader, #contact-us{
+    	padding-bottom: 20px;
 
     }
 }
